@@ -6,8 +6,11 @@ module.exports = {
       colors : {
         blue : '#4682A9',
         dark : '#334155'
-      }
+      },
     },
+    fontFamily: {
+      myFont: 'Ubuntu'
+    }
   },
   plugins: [],
 }
