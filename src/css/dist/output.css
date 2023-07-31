@@ -1213,3 +1213,13 @@ video {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
+
+@media (min-width: 1280px) {
+  .xl\:w-10 {
+    width: 2.5rem;
+  }
+
+  .xl\:w-10\/12 {
+    width: 83.333333%;
+  }
+}
