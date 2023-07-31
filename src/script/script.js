@@ -4,6 +4,7 @@ const navMenu = document.querySelector("#nav-menu");
 
 hamburger.addEventListener('click', function() {
     hamburger.classList.toggle("hamburger-active");
+    navMenu.classList.toggle("hidden");
 })
 
 // navbar fixed 
