@@ -18,3 +18,11 @@ window.onscroll = function() {
         header.classList.remove("navbar-fixed")
     }
 }
+
+// tombol submit
+
+const tombol = document.querySelector("#submit");
+
+tombol.addEventListener('click', function() {
+    alert("pesan anda telah terkirim");
+});
